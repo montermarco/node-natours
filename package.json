@@ -4,7 +4,7 @@
   "description": "learning mongo and express",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.8.2",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
@@ -25,5 +26,8 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
     "prettier": "^1.19.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
