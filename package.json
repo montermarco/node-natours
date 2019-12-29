@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug": "ndb server.js"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +25,7 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
+    "ndb": "^1.1.5",
     "prettier": "^1.19.1"
   },
   "engines": {
